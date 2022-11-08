@@ -4,17 +4,17 @@
 
     <test name="LogIn">
         <classes>
-            <class name="EspnLogInTestCases"/>
+            <class name="org.globant.EspnLogInTestCases"/>
         </classes>
     </test>
     <test name="LogOut">
         <classes>
-            <class name="EspnLogOutTestCases"/>
+            <class name="org.globant.EspnLogOutTestCases"/>
         </classes>
     </test>
     <test name="DeactivateAccount">
         <classes>
-            <class name="EspnDeactivateAccountTestCases"/>
+            <class name="org.globant.EspnDeactivateAccountTestCases"/>
         </classes>
     </test>
 </suite>

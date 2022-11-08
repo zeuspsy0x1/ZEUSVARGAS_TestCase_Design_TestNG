@@ -1,3 +1,5 @@
+package org.globant;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -7,13 +9,13 @@ public class EspnLogInTestCases {
 
 
     @BeforeClass
-    void openBrowser(){
+    public void openBrowser(){
         System.out.println();
         System.out.println("Open browser and redirect to https://www.espnqa.com/?_adbock=true&src=com");
     }
 
     @Test (priority = 1)
-    void logInWithEmailAndPassword (){
+    public void logInWithEmailAndPassword (){
         System.out.println();
         System.out.println("****************  Log in  ****************");
         System.out.println("Hover on person icon in the top right");
@@ -31,7 +33,7 @@ public class EspnLogInTestCases {
     }
 
     @AfterClass
-    void closeBrowser(){
+    public void closeBrowser(){
         System.out.println();
         System.out.println("Close browser");
     }
