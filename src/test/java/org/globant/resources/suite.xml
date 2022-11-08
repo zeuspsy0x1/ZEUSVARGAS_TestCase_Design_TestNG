@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" verbose="2">
+<suite name="Test suites" verbose="2">
 
-    <test name="LogIn">
+    <test name="Log In">
         <classes>
             <class name="org.globant.EspnLogInTestCases"/>
         </classes>
     </test>
-    <test name="LogOut">
+    <test name="Log Out">
         <classes>
             <class name="org.globant.EspnLogOutTestCases"/>
         </classes>
     </test>
-    <test name="DeactivateAccount">
+    <test name="Deactivate Account">
         <classes>
             <class name="org.globant.EspnDeactivateAccountTestCases"/>
         </classes>
