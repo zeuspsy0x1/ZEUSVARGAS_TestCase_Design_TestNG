@@ -4,12 +4,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.logging.Logger;
+
 public class EspnDeactivateAccountTestCases {
+
+    private static final Logger log = java.util.logging.Logger.getLogger("myLog");
 
     @BeforeClass
     public void openBrowser(){
         System.out.println();
-        System.out.println("Open browser and redirect to https://www.espnqa.com/?_adbock=true&src=com");
+        log.info("Open browser and redirect to https://www.espnqa.com/?_adbock=true&src=com");
     }
 
 
@@ -46,6 +50,7 @@ public class EspnDeactivateAccountTestCases {
     @AfterClass
     public void closeBrowser(){
         System.out.println();
-        System.out.println("Close browser");
+        log.info("Close browser");
+        System.out.println();
     }
 }
