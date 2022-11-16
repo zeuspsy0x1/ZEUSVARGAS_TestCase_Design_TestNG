@@ -10,8 +10,9 @@
 
   <name>espnFinal</name>
   <description>A simple espnFinal.</description>
+
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://www.espnqa.com/?src=com&amp;_adblock=true&amp;espn=cloud</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
