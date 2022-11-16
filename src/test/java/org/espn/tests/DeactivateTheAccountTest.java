@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 
-public class DeactivateAccountTest extends BaseForAllTests{
+public class DeactivateTheAccountTest extends BaseForAllTests{
 
     @Test(dataProvider = "userLoginData")
     public void deactivateAccount(String email, String password, String username) throws InterruptedException {
@@ -18,3 +18,7 @@ public class DeactivateAccountTest extends BaseForAllTests{
         homePage.clickSubmitButton();
     }
 }
+
+
+
+

@@ -10,13 +10,15 @@
 
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://www.espnqa.com/?src=com&amp;_adblock=true&amp;espn=cloud"/>
+    <parameter name="watchPageUrl" value="https://www.espn.com.co/watch/?redirected=true"/>
 
 
     <test name = "All tests">
         <classes>
-            <class name="org.espn.tests.Login"/>
-<!--            <class name="org.espn.tests.LogoutTest"/>-->
-<!--            <class name="org.espn.tests.DeactivateUserTest"/>-->
+            <class name="org.espn.tests.LoginTest"/>
+            <class name="org.espn.tests.LogoutTest"/>
+            <class name="org.espn.tests.DeactivateTheAccountTest"/>
+            <class name="org.espn.tests.LoginWithDeactivatedAccountTest"/>
         </classes>
     </test>
 </suite>
