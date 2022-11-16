@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="ESPN test automation suite">
+
+    <listeners>
+        <listener class-name="org.espn.utils.Listener"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.espnqa.com/?src=com&amp;_adblock=true&amp;espn=cloud"/>
+
+
+    <test name = "All tests">
+        <classes>
+            <class name="org.espn.tests.Login"/>
+<!--            <class name="org.espn.tests.LogoutTest"/>-->
+<!--            <class name="org.espn.tests.DeactivateUserTest"/>-->
+        </classes>
+    </test>
+</suite>
